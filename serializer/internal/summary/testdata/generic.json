@@ -1,0 +1,60 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "func Map(xs []T) []T",
+      "segments": [
+        {
+          "a": "func "
+        },
+        {
+          "v": "Map"
+        },
+        {
+          "v": "(xs []T) []T"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 1,
+      "text": "return: xs",
+      "segments": [
+        {
+          "a": "return: "
+        },
+        {
+          "v": "xs"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: xs []T",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "xs"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "[]T"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [
+    "generics"
+  ],
+  "parse_error": null
+}

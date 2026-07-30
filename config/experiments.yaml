@@ -1,0 +1,74 @@
+schema_version: 1
+dataset:
+  identifier: aholovko/go-critic-style
+  doi: 10.57967/hf/5304
+  revision: 7b951fd57d19286153b46ba219aa2cb87fcc4d2b
+model:
+  identifier: meta-llama/Llama-3.2-1B-Instruct
+profiles:
+  paper:
+    max_steps: 600
+    allowed_max_length: 9305
+    micro_batch_size: 2
+    grad_accum_steps: 16
+    effective_batch_size: 32
+    learning_rate: 2.0e-5
+    betas: [0.9, 0.999]
+    epsilon: 1.0e-8
+    weight_decay: 0.1
+    warmup_ratio: 0.1
+    minimum_learning_rate_ratio: 0.1
+    maximum_gradient_norm: 1.0
+    checkpoint_every_steps: 120
+    require_full_composite: true
+    activation_checkpointing: false
+    generation_max_new_tokens:
+      rule_identification: 64
+      explanation: 512
+      correction: 512
+      joint: 512
+conditions:
+  C0:
+    kind: fine_tuned
+    path: c0
+    seeds: [42, 43, 44]
+    use_summary: false
+    auxiliary_pool: null
+    auxiliary_ratio: 0.0
+    configuration_id: paper-c0-v1
+  C1:
+    kind: fine_tuned
+    path: c1
+    seeds: [42, 43, 44]
+    use_summary: true
+    auxiliary_pool: null
+    auxiliary_ratio: 0.0
+    configuration_id: paper-c1-v1
+  C2:
+    kind: fine_tuned
+    path: c2
+    seeds: [42, 43, 44]
+    use_summary: true
+    auxiliary_pool: syntax
+    auxiliary_ratio: 0.2
+    configuration_id: paper-c2-v1
+  C2-control:
+    kind: fine_tuned
+    path: c2-control
+    seeds: [42, 43, 44]
+    use_summary: true
+    auxiliary_pool: duplicated_main
+    auxiliary_ratio: 0.2
+    configuration_id: paper-c2-control-v1
+  zero-shot-raw:
+    kind: zero_shot
+    path: zero-shot-raw
+    seeds: [42]
+    prompt_form: raw
+    configuration_id: paper-zero-shot-raw-v1
+  zero-shot-syntax:
+    kind: zero_shot
+    path: zero-shot-syntax
+    seeds: [42]
+    prompt_form: syntax
+    configuration_id: paper-zero-shot-syntax-v1

@@ -1,0 +1,90 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "func Interact(out chan\u003c- int, in \u003c-chan int)",
+      "segments": [
+        {
+          "a": "func "
+        },
+        {
+          "v": "Interact"
+        },
+        {
+          "v": "(out chan\u003c- int, in \u003c-chan int)"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "depth": 1,
+      "text": "channel: send out \u003c- 1",
+      "segments": [
+        {
+          "a": "channel: send "
+        },
+        {
+          "v": "out \u003c- 1"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "depth": 1,
+      "text": "channel: receive \u003c-in",
+      "segments": [
+        {
+          "a": "channel: receive "
+        },
+        {
+          "v": "\u003c-in"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: out chan\u003c- int",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "out"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "chan\u003c- int"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: in \u003c-chan int",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "in"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "\u003c-chan int"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [],
+  "parse_error": null
+}

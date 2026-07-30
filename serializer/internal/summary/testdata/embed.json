@@ -1,0 +1,57 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 1,
+      "depth": 0,
+      "text": "comment: doc",
+      "segments": [
+        {
+          "a": "comment: "
+        },
+        {
+          "a": "doc"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "var src string",
+      "segments": [
+        {
+          "a": "var "
+        },
+        {
+          "v": "src string"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: src string",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "src"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "string"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [
+    "go:embed"
+  ],
+  "parse_error": null
+}

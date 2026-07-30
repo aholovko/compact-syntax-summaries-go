@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+reproduced/
+reproduced-training/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+serializer/bin/
+serializer/.cache/

@@ -1,0 +1,7 @@
+condition,rule_id_exact_match_mean,rule_id_exact_match_sd,rule_id_micro_f1_mean,rule_id_micro_f1_sd,rule_id_macro_f1_mean,rule_id_macro_f1_sd,correction_fix_rate_mean,correction_fix_rate_sd,joint_fix_rate_mean,joint_fix_rate_sd
+Zero-shot raw,0.00,,23.48,,23.42,,23.17,,28.29,
+Zero-shot syntax,0.00,,22.94,,22.89,,21.71,,22.20,
+C0 (raw),63.58,4.81,65.88,4.91,64.54,5.79,56.18,0.51,41.38,0.61
+C1 (syntax-input),61.63,3.53,63.76,3.51,62.33,3.80,56.10,1.12,41.71,1.29
+C2 (syntax + aux),54.31,1.62,56.16,1.57,54.11,2.08,56.34,0.24,37.89,1.34
+C2-control,64.55,0.51,66.98,0.54,65.77,0.88,56.67,0.37,42.52,1.10

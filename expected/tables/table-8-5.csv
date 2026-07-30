@@ -1,0 +1,15 @@
+condition_task,identity,p50,p90,p95,p99,max,n
+C0 : rule identification,,770,2400,2955,3758,4089,1536
+C0 : explanation,,823,2448,3010,3836,4149,1536
+C0 : correction,,1442,4697,5805,7406,8077,1533
+C0 : joint,,1500,4745,5870,7486,8131,1533
+C1 : rule identification,,1308,4441,5421,7143,8034,1536
+C1 : explanation,,1364,4506,5487,7209,8077,1536
+C1 : correction,,2004,6781,8272,10704,12022,1533
+C1 : joint,,2058,6836,8317,10778,12074,1533
+C2 : main tasks,identical_to_c1_main_rows,,,,,,
+C2 : syntax auxiliary,,1394,4713,5777,7490,8323,1536
+C2-control : rule identification,,1277,4364,5252,6938,8034,1894
+C2-control : explanation,,1345,4353,5360,6998,8077,1960
+C2-control : correction,,1947,6443,7815,10396,12022,1941
+C2-control : joint,,1995,6597,7887,10637,12074,1879

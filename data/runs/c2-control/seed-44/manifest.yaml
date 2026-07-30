@@ -1,0 +1,7 @@
+historical_run_id: 20260711_073948_cf5d1a7b
+condition: C2-control
+seed: 44
+profile: paper
+dataset_revision: 7b951fd57d19286153b46ba219aa2cb87fcc4d2b
+historical_source_commit: 16aadb26296b291538de481265a149dcb6db8876
+configuration_id: paper-c2-control-v1

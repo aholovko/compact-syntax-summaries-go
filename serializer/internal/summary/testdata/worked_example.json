@@ -1,0 +1,112 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "func ProcessItems(items []Item) error",
+      "segments": [
+        {
+          "a": "func "
+        },
+        {
+          "v": "ProcessItems"
+        },
+        {
+          "v": "(items []Item) error"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 1,
+      "text": "loop: for index i; condition i \u003c len(items); update i++",
+      "segments": [
+        {
+          "a": "loop: for"
+        },
+        {
+          "a": " index "
+        },
+        {
+          "v": "i"
+        },
+        {
+          "a": "; condition "
+        },
+        {
+          "v": "i \u003c len(items)"
+        },
+        {
+          "a": "; update "
+        },
+        {
+          "v": "i++"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 2,
+      "text": "conditional: items[i].Status == \"\"",
+      "segments": [
+        {
+          "a": "conditional: "
+        },
+        {
+          "v": "items[i].Status == \"\""
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "depth": 3,
+      "text": "assignment: items[i].Status = \"pending\"",
+      "segments": [
+        {
+          "a": "assignment: "
+        },
+        {
+          "v": "items[i].Status = \"pending\""
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 1,
+      "text": "return: nil",
+      "segments": [
+        {
+          "a": "return: "
+        },
+        {
+          "v": "nil"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: items []Item",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "items"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "[]Item"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [],
+  "parse_error": null
+}

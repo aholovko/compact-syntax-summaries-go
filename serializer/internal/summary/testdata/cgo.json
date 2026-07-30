@@ -1,0 +1,41 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "func Hello()",
+      "segments": [
+        {
+          "a": "func "
+        },
+        {
+          "v": "Hello"
+        },
+        {
+          "v": "()"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "depth": 1,
+      "text": "call: C.puts(C.CString(\"hello\"))",
+      "segments": [
+        {
+          "a": "call: "
+        },
+        {
+          "v": "C.puts(C.CString(\"hello\"))"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [
+    "cgo"
+  ],
+  "parse_error": null
+}

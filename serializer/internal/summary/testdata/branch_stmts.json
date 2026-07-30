@@ -1,0 +1,148 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "func classify(xs []int) int",
+      "segments": [
+        {
+          "a": "func "
+        },
+        {
+          "v": "classify"
+        },
+        {
+          "v": "(xs []int) int"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 1,
+      "text": "loop: range key i; over xs",
+      "segments": [
+        {
+          "a": "loop: range"
+        },
+        {
+          "a": " key "
+        },
+        {
+          "v": "i"
+        },
+        {
+          "a": "; over "
+        },
+        {
+          "v": "xs"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 2,
+      "text": "conditional: xs[i] \u003c 0",
+      "segments": [
+        {
+          "a": "conditional: "
+        },
+        {
+          "v": "xs[i] \u003c 0"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 2,
+      "text": "conditional: xs[i] == 0",
+      "segments": [
+        {
+          "a": "conditional: "
+        },
+        {
+          "v": "xs[i] == 0"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 1,
+      "text": "switch: xs[0]",
+      "segments": [
+        {
+          "a": "switch:"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "xs[0]"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 2,
+      "text": "case: 1",
+      "segments": [
+        {
+          "a": "case: "
+        },
+        {
+          "v": "1"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 2,
+      "text": "case: 2",
+      "segments": [
+        {
+          "a": "case: "
+        },
+        {
+          "v": "2"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 1,
+      "text": "return: 0",
+      "segments": [
+        {
+          "a": "return: "
+        },
+        {
+          "v": "0"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: xs []int",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "xs"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "[]int"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [],
+  "parse_error": null
+}

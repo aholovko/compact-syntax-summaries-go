@@ -1,0 +1,77 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "type Config struct",
+      "segments": [
+        {
+          "a": "type "
+        },
+        {
+          "v": "Config"
+        },
+        {
+          "a": " struct"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "depth": 0,
+      "text": "comment: doc",
+      "segments": [
+        {
+          "a": "comment: "
+        },
+        {
+          "a": "doc"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: Name string",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "Name"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "string"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: Port int",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "Port"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "int"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [],
+  "parse_error": null
+}

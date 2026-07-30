@@ -1,0 +1,28 @@
+historical_run_id: 20260713_151834_bc4d7a12
+condition: zero-shot-raw
+seed: 42
+profile: paper
+metrics:
+  checkpoint_selection:
+    selected_step: null
+    best_composite: null
+    rule_id_macro_f1: null
+    correction_fix_rate: null
+    joint_fix_rate: null
+  compute:
+    optimizer_steps: null
+    examples_seen: null
+    total_tokens: null
+    supervised_tokens: null
+    peak_allocated_gpu_memory_gib: null
+    wall_clock_train_s: null
+    wall_clock_total_s: null
+  length:
+    allowed_max_length: null
+    realized_truncation: null
+  provenance:
+    dataset_revision: 7b951fd57d19286153b46ba219aa2cb87fcc4d2b
+    model_identifier: meta-llama/Llama-3.2-1B-Instruct
+    data_fraction: 1.0
+    historical_source_commit: 520d5ce6c49864405c5946cae57ec794b00e4218
+    run_kind: zero_shot

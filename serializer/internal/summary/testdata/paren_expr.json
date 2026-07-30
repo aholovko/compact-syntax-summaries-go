@@ -1,0 +1,100 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "func doWork() int",
+      "segments": [
+        {
+          "a": "func "
+        },
+        {
+          "v": "doWork"
+        },
+        {
+          "v": "() int"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 1,
+      "text": "return: 0",
+      "segments": [
+        {
+          "a": "return: "
+        },
+        {
+          "v": "0"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "func run(ch chan int)",
+      "segments": [
+        {
+          "a": "func "
+        },
+        {
+          "v": "run"
+        },
+        {
+          "v": "(ch chan int)"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "depth": 1,
+      "text": "call: doWork()",
+      "segments": [
+        {
+          "a": "call: "
+        },
+        {
+          "v": "doWork()"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "depth": 1,
+      "text": "channel: receive \u003c-ch",
+      "segments": [
+        {
+          "a": "channel: receive "
+        },
+        {
+          "v": "\u003c-ch"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: ch chan int",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "ch"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "chan int"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [],
+  "parse_error": null
+}

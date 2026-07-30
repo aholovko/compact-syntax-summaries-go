@@ -1,0 +1,41 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 1,
+      "depth": 0,
+      "text": "comment: line",
+      "segments": [
+        {
+          "a": "comment: "
+        },
+        {
+          "a": "line"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "func Run()",
+      "segments": [
+        {
+          "a": "func "
+        },
+        {
+          "v": "Run"
+        },
+        {
+          "v": "()"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [
+    "build_tags"
+  ],
+  "parse_error": null
+}

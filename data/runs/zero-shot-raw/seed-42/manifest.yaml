@@ -1,0 +1,7 @@
+historical_run_id: 20260713_151834_bc4d7a12
+condition: zero-shot-raw
+seed: 42
+profile: paper
+dataset_revision: 7b951fd57d19286153b46ba219aa2cb87fcc4d2b
+historical_source_commit: 520d5ce6c49864405c5946cae57ec794b00e4218
+configuration_id: paper-zero-shot-raw-v1

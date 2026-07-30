@@ -1,0 +1,60 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "func Size(x int) uintptr",
+      "segments": [
+        {
+          "a": "func "
+        },
+        {
+          "v": "Size"
+        },
+        {
+          "v": "(x int) uintptr"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 1,
+      "text": "return: unsafe.Sizeof(x)",
+      "segments": [
+        {
+          "a": "return: "
+        },
+        {
+          "v": "unsafe.Sizeof(x)"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: x int",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "x"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "int"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [
+    "unsafe_ptr"
+  ],
+  "parse_error": null
+}

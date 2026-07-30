@@ -1,0 +1,99 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "func Process(items []string)",
+      "segments": [
+        {
+          "a": "func "
+        },
+        {
+          "v": "Process"
+        },
+        {
+          "v": "(items []string)"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 1,
+      "text": "loop: range key i; value v; over items",
+      "segments": [
+        {
+          "a": "loop: range"
+        },
+        {
+          "a": " key "
+        },
+        {
+          "v": "i"
+        },
+        {
+          "a": "; value "
+        },
+        {
+          "v": "v"
+        },
+        {
+          "a": "; over "
+        },
+        {
+          "v": "items"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "depth": 2,
+      "text": "assignment: _ = i",
+      "segments": [
+        {
+          "a": "assignment: "
+        },
+        {
+          "v": "_ = i"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "depth": 2,
+      "text": "assignment: _ = v",
+      "segments": [
+        {
+          "a": "assignment: "
+        },
+        {
+          "v": "_ = v"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: items []string",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "items"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "[]string"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [],
+  "parse_error": null
+}

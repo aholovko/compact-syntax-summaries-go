@@ -1,0 +1,104 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "func Wait(ch \u003c-chan int) int",
+      "segments": [
+        {
+          "a": "func "
+        },
+        {
+          "v": "Wait"
+        },
+        {
+          "v": "(ch \u003c-chan int) int"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 1,
+      "text": "select:",
+      "segments": [
+        {
+          "a": "select:"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 2,
+      "text": "case: v := \u003c-ch",
+      "segments": [
+        {
+          "a": "case: "
+        },
+        {
+          "v": "v := \u003c-ch"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 3,
+      "text": "return: v",
+      "segments": [
+        {
+          "a": "return: "
+        },
+        {
+          "v": "v"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 2,
+      "text": "default:",
+      "segments": [
+        {
+          "a": "default:"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 3,
+      "text": "return: 0",
+      "segments": [
+        {
+          "a": "return: "
+        },
+        {
+          "v": "0"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: ch \u003c-chan int",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "ch"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "\u003c-chan int"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [],
+  "parse_error": null
+}

@@ -1,0 +1,71 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "func Run(ch chan int)",
+      "segments": [
+        {
+          "a": "func "
+        },
+        {
+          "v": "Run"
+        },
+        {
+          "v": "(ch chan int)"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 1,
+      "text": "defer: close(ch)",
+      "segments": [
+        {
+          "a": "defer: "
+        },
+        {
+          "v": "close(ch)"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 1,
+      "text": "go: work()",
+      "segments": [
+        {
+          "a": "go: "
+        },
+        {
+          "v": "work()"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: ch chan int",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "ch"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "chan int"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [],
+  "parse_error": null
+}

@@ -1,0 +1,29 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "package",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "type Status int",
+      "segments": [
+        {
+          "a": "type "
+        },
+        {
+          "v": "Status"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "int"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [],
+  "parse_error": null
+}

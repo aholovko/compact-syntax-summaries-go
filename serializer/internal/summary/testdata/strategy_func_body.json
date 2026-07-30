@@ -1,0 +1,36 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "func_body",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 1,
+      "depth": 0,
+      "text": "assignment: x := 1",
+      "segments": [
+        {
+          "a": "assignment: "
+        },
+        {
+          "v": "x := 1"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "depth": 0,
+      "text": "assignment: _ = x",
+      "segments": [
+        {
+          "a": "assignment: "
+        },
+        {
+          "v": "_ = x"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [],
+  "parse_error": null
+}

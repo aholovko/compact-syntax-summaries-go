@@ -1,0 +1,45 @@
+[project]
+name = "compact-syntax-summaries-go"
+version = "1.0.0"
+description = "Replication package for compact syntax summaries in Go style diagnosis and repair"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "numpy>=2.4,<3",
+    "pandas>=3,<4",
+    "pydantic>=2.12,<3",
+    "pyyaml>=6.0,<7",
+    "scipy>=1.17,<2",
+    "statsmodels>=0.14.6,<0.15",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9,<10",
+    "ruff>=0.15,<0.16",
+]
+training = [
+    "safetensors>=0.8,<0.9",
+    "tiktoken>=0.13,<0.14",
+    "torch==2.6.0",
+]
+
+[tool.uv]
+default-groups = []
+
+[build-system]
+requires = ["uv_build>=0.11.32,<0.12"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "go_ast_assistant"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+extend-select = ["E501", "UP006", "UP035"]

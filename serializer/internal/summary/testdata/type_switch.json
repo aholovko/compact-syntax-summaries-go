@@ -1,0 +1,123 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "func Describe(i interface{}) string",
+      "segments": [
+        {
+          "a": "func "
+        },
+        {
+          "v": "Describe"
+        },
+        {
+          "v": "(i interface{}) string"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 1,
+      "text": "switch: v := i.(type)",
+      "segments": [
+        {
+          "a": "switch:"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "v := i.(type)"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 2,
+      "text": "case: int",
+      "segments": [
+        {
+          "a": "case: "
+        },
+        {
+          "v": "int"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 3,
+      "text": "return: \"int\"",
+      "segments": [
+        {
+          "a": "return: "
+        },
+        {
+          "v": "\"int\""
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 2,
+      "text": "default:",
+      "segments": [
+        {
+          "a": "default:"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "depth": 3,
+      "text": "assignment: _ = v",
+      "segments": [
+        {
+          "a": "assignment: "
+        },
+        {
+          "v": "_ = v"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 3,
+      "text": "return: \"other\"",
+      "segments": [
+        {
+          "a": "return: "
+        },
+        {
+          "v": "\"other\""
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: i interface{}",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "i"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "interface{}"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [],
+  "parse_error": null
+}

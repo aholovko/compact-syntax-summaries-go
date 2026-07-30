@@ -1,0 +1,110 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "func Classify(x int) string",
+      "segments": [
+        {
+          "a": "func "
+        },
+        {
+          "v": "Classify"
+        },
+        {
+          "v": "(x int) string"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 1,
+      "text": "switch: x",
+      "segments": [
+        {
+          "a": "switch:"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "x"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 2,
+      "text": "case: 1",
+      "segments": [
+        {
+          "a": "case: "
+        },
+        {
+          "v": "1"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 3,
+      "text": "return: \"one\"",
+      "segments": [
+        {
+          "a": "return: "
+        },
+        {
+          "v": "\"one\""
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 2,
+      "text": "default:",
+      "segments": [
+        {
+          "a": "default:"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 3,
+      "text": "return: \"other\"",
+      "segments": [
+        {
+          "a": "return: "
+        },
+        {
+          "v": "\"other\""
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: x int",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "x"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "int"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [],
+  "parse_error": null
+}

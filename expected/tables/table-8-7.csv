@@ -1,0 +1,9 @@
+check,n,c0_rule_f1,c1_rule_f1,c1_minus_c0_rule_f1,c0_joint_fix,c1_joint_fix,c1_minus_c0_joint_fix,c2_rule_f1,c2_control_rule_f1
+assignOp,58,92.1,75.9,-16.3,50.0,46.6,-3.4,63.9,88.1
+builtinShadow,60,49.3,50.7,1.4,39.4,36.7,-2.8,33.1,53.8
+captLocal,56,38.7,29.0,-9.7,54.2,53.6,-0.6,32.8,37.0
+commentFormatting,59,59.1,60.6,1.4,42.9,48.0,5.1,56.1,58.2
+elseif,38,71.8,82.5,10.6,26.3,34.2,7.9,69.9,87.5
+ifElseChain,58,86.7,86.5,-0.2,28.7,31.6,2.9,83.1,86.1
+paramTypeCombine,55,44.4,39.0,-5.4,33.9,34.5,0.6,23.9,43.4
+singleCaseSwitch,56,74.1,74.6,0.5,38.7,36.9,-1.8,70.1,72.0

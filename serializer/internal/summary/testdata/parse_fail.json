@@ -1,0 +1,9 @@
+{
+  "id": "sha256:golden",
+  "ok": false,
+  "parse_strategy": null,
+  "type_facts_available": false,
+  "lines": [],
+  "excluded_constructs": [],
+  "parse_error": "no parse strategy accepted the snippet (file: 1:1: expected 'package', found 'func')"
+}

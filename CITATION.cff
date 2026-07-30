@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: If you use this replication package, please cite it using this metadata.
+title: Compact Syntax Summaries for Low-Resource Go Style Diagnosis and Repair — Replication Package
+type: software
+authors:
+  - family-names: Holovko
+    given-names: Andrii
+repository-code: https://github.com/aholovko/compact-syntax-summaries-go
+version: 1.0.0

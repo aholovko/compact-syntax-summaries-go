@@ -1,0 +1,9 @@
+condition,task,a,b,c,d,invalid
+C0,correction,691,4,91,0,444
+C1,correction,690,2,95,0,443
+C2,correction,693,4,90,0,443
+C2-control,correction,697,2,86,0,445
+C0,joint,509,3,141,2,575
+C1,joint,513,3,155,1,558
+C2,joint,466,2,194,3,565
+C2-control,joint,523,1,135,1,570

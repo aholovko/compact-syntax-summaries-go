@@ -1,0 +1,86 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "func reverse(xs []int)",
+      "segments": [
+        {
+          "a": "func "
+        },
+        {
+          "v": "reverse"
+        },
+        {
+          "v": "(xs []int)"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 1,
+      "text": "loop: for index i, j; condition i \u003c j; update i, j = i+1, j-1",
+      "segments": [
+        {
+          "a": "loop: for"
+        },
+        {
+          "a": " index "
+        },
+        {
+          "v": "i, j"
+        },
+        {
+          "a": "; condition "
+        },
+        {
+          "v": "i \u003c j"
+        },
+        {
+          "a": "; update "
+        },
+        {
+          "v": "i, j = i+1, j-1"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "depth": 2,
+      "text": "assignment: xs[i], xs[j] = xs[j], xs[i]",
+      "segments": [
+        {
+          "a": "assignment: "
+        },
+        {
+          "v": "xs[i], xs[j] = xs[j], xs[i]"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: xs []int",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "xs"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "[]int"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [],
+  "parse_error": null
+}

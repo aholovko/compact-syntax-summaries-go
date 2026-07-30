@@ -1,0 +1,123 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "func f(x int)",
+      "segments": [
+        {
+          "a": "func "
+        },
+        {
+          "v": "f"
+        },
+        {
+          "v": "(x int)"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "depth": 1,
+      "text": "assignment: y := 1",
+      "segments": [
+        {
+          "a": "assignment: "
+        },
+        {
+          "v": "y := 1"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "depth": 1,
+      "text": "comment: block",
+      "segments": [
+        {
+          "a": "comment: "
+        },
+        {
+          "a": "block"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 1,
+      "text": "conditional: x \u003e 0",
+      "segments": [
+        {
+          "a": "conditional: "
+        },
+        {
+          "v": "x \u003e 0"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "depth": 1,
+      "text": "comment: block",
+      "segments": [
+        {
+          "a": "comment: "
+        },
+        {
+          "a": "block"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "depth": 2,
+      "text": "call: g(y)",
+      "segments": [
+        {
+          "a": "call: "
+        },
+        {
+          "v": "g(y)"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "depth": 2,
+      "text": "comment: line",
+      "segments": [
+        {
+          "a": "comment: "
+        },
+        {
+          "a": "line"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: x int",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "x"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "int"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [],
+  "parse_error": null
+}

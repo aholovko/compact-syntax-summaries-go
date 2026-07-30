@@ -1,0 +1,4 @@
+task,c1_minus_c0_point,c1_minus_c0_low,c1_minus_c0_high,c2_minus_c0_point,c2_minus_c0_low,c2_minus_c0_high
+Rule identification,-1.95,-4.23,0.33,-9.27,-12.28,-6.26
+Correction,-0.08,-1.46,1.22,0.16,-1.14,1.46
+Joint,0.33,-1.71,2.36,-3.50,-5.85,-1.14

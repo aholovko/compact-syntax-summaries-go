@@ -1,0 +1,71 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "func Extract(i interface{})",
+      "segments": [
+        {
+          "a": "func "
+        },
+        {
+          "v": "Extract"
+        },
+        {
+          "v": "(i interface{})"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "depth": 1,
+      "text": "assignment: s, ok := i.(string)",
+      "segments": [
+        {
+          "a": "assignment: "
+        },
+        {
+          "v": "s, ok := i.(string)"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "depth": 1,
+      "text": "assignment: _, _ = s, ok",
+      "segments": [
+        {
+          "a": "assignment: "
+        },
+        {
+          "v": "_, _ = s, ok"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: i interface{}",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "i"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "interface{}"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [],
+  "parse_error": null
+}

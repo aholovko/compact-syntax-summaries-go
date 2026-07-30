@@ -1,0 +1,42 @@
+[
+  {
+    "composite_score": 0.24862401100791195,
+    "correction_fix_rate": 0.44144144144144143,
+    "joint_fix_rate": 0.22522522522522523,
+    "rule_id_macro_f1": 0.07920536635706915,
+    "step": 120,
+    "validation_loss": 0.5331591356981982
+  },
+  {
+    "composite_score": 0.4008258224863061,
+    "correction_fix_rate": 0.4954954954954955,
+    "joint_fix_rate": 0.3783783783783784,
+    "rule_id_macro_f1": 0.3286035935850445,
+    "step": 240,
+    "validation_loss": 0.4064281566722973
+  },
+  {
+    "composite_score": 0.43614091986185005,
+    "correction_fix_rate": 0.5045045045045045,
+    "joint_fix_rate": 0.3063063063063063,
+    "rule_id_macro_f1": 0.49761194877473947,
+    "step": 360,
+    "validation_loss": 0.27672240111204954
+  },
+  {
+    "composite_score": 0.5429366634626102,
+    "correction_fix_rate": 0.5315315315315315,
+    "joint_fix_rate": 0.3963963963963964,
+    "rule_id_macro_f1": 0.7008820624599027,
+    "step": 480,
+    "validation_loss": 0.23522839245495494
+  },
+  {
+    "composite_score": 0.5510661426790459,
+    "correction_fix_rate": 0.5315315315315315,
+    "joint_fix_rate": 0.3963963963963964,
+    "rule_id_macro_f1": 0.7252705001092098,
+    "step": 600,
+    "validation_loss": 0.23026612427857546
+  }
+]

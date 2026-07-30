@@ -1,0 +1,39 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "func Run()",
+      "segments": [
+        {
+          "a": "func "
+        },
+        {
+          "v": "Run"
+        },
+        {
+          "v": "()"
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "depth": 1,
+      "text": "call: doWork(1, 2)",
+      "segments": [
+        {
+          "a": "call: "
+        },
+        {
+          "v": "doWork(1, 2)"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [],
+  "parse_error": null
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "const MaxRetries int = 3",
+      "segments": [
+        {
+          "a": "const "
+        },
+        {
+          "v": "MaxRetries int = 3"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: MaxRetries int",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "MaxRetries"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "int"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [],
+  "parse_error": null
+}

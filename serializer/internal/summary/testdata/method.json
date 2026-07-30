@@ -1,0 +1,83 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "func (s *Server) Handle(w ResponseWriter, r *Request) error",
+      "segments": [
+        {
+          "a": "func "
+        },
+        {
+          "v": "(s *Server)"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "Handle"
+        },
+        {
+          "v": "(w ResponseWriter, r *Request) error"
+        }
+      ]
+    },
+    {
+      "tier": 0,
+      "depth": 1,
+      "text": "return: nil",
+      "segments": [
+        {
+          "a": "return: "
+        },
+        {
+          "v": "nil"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: w ResponseWriter",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "w"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "ResponseWriter"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: r *Request",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "r"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "*Request"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [],
+  "parse_error": null
+}

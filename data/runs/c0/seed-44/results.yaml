@@ -1,0 +1,28 @@
+historical_run_id: 20260710_010858_86e8320f
+condition: C0
+seed: 44
+profile: paper
+metrics:
+  checkpoint_selection:
+    selected_step: 600
+    best_composite: 0.5193114038803693
+    rule_id_macro_f1: 0.6660423197492163
+    correction_fix_rate: 0.5315315315315315
+    joint_fix_rate: 0.36036036036036034
+  compute:
+    optimizer_steps: 600
+    examples_seen: 19200
+    total_tokens: 27878584
+    supervised_tokens: 9333739
+    peak_allocated_gpu_memory_gib: 48.556538581848145
+    wall_clock_train_s: 6566.553466341
+    wall_clock_total_s: 9233.062723
+  length:
+    allowed_max_length: 9305
+    realized_truncation: 0
+  provenance:
+    dataset_revision: 7b951fd57d19286153b46ba219aa2cb87fcc4d2b
+    model_identifier: meta-llama/Llama-3.2-1B-Instruct
+    data_fraction: 1.0
+    historical_source_commit: 16aadb26296b291538de481265a149dcb6db8876
+    run_kind: fine_tuned

@@ -1,0 +1,45 @@
+{
+  "id": "sha256:golden",
+  "ok": true,
+  "parse_strategy": "file",
+  "type_facts_available": false,
+  "lines": [
+    {
+      "tier": 0,
+      "depth": 0,
+      "text": "type Handler interface",
+      "segments": [
+        {
+          "a": "type "
+        },
+        {
+          "v": "Handler"
+        },
+        {
+          "a": " interface"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "depth": 0,
+      "text": "types/annotations: r Request",
+      "segments": [
+        {
+          "a": "types/annotations: "
+        },
+        {
+          "v": "r"
+        },
+        {
+          "a": " "
+        },
+        {
+          "v": "Request"
+        }
+      ]
+    }
+  ],
+  "excluded_constructs": [],
+  "parse_error": null
+}

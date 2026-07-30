@@ -1,0 +1,7 @@
+quantity,c0,c1,c2,c2_control
+Total tokens (millions),27.9,42.0,37.5,41.1
+Supervised tokens (millions),9.32,9.32,9.30,9.11
+Optimizer steps,600,600,600,600
+Training minutes,110,136,133,134
+End-to-end minutes,154,186,183,185
+Peak allocated GPU memory (GiB),48.6,58.9,58.9,58.9
